@@ -7,7 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Mulish&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./index.min.css" />
@@ -37,12 +41,10 @@
       <div>It's time to celebrate Nathan's 11th birthday</div>
       <div>Please join us on Nathan's special day!</div>
     </section>
-    <section id="birthday-countdown">
-      <h3 id="countdown-header-text">
-        <span id="countdown-header-image">🎉</span> The countdown is on ...
-        <span id="countdown-header-image">🎉</span>
-      </h3>
-      <div id="countdown-timer" class="container">
+    <h1 id="divider-image">🎉</h1>
+    <section class="countdown">
+      <h3 id="countdown-header-text">The countdown has begun ...</h3>
+      <div id="countdown-timer">
         <div id="days" class="countdown-number"></div>
         <div id="hours" class="countdown-number"></div>
         <div id="minutes" class="countdown-number"></div>
@@ -53,9 +55,41 @@
         <div class="countdown-text">seconds</div>
       </div>
     </section>
+    <h1 id="divider-image">🎉</h1>
+    <section class="when">
+      <h3 id="when-text">The party is on ...</h3>
+      <h1 class="when-text-actual">December 13, 2025</h1>
+      <h1 class="when-text-actual">From 2:00 PM To 4:30 PM</h1>
+    </section>
+    <h1 id="divider-image">🎉</h1>
+    <section class="location">
+      <h3 id="location-text">The party is at ...</h3>
+      <div id="location-logo">
+        <a href="https://www.urbanair.com/" target="_blank">
+          <img
+            src="./images/urban_air_width_880px.webp"
+            alt="Urban Air Logo"
+            loading="lazy"
+            id="location-logo-img"
+        /></a>
+      </div>
+      <div id="location-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11387.148211568378!2d-82.28747118743603!3d27.89145577597786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2d3e68640e32f%3A0x21d8173f50e2bc9c!2sUrban%20Air%20Trampoline%20and%20Adventure%20Park!5e1!3m2!1sen!2sus!4v1748797588258!5m2!1sen!2sus"
+          width="900"
+          height="500"
+          style="border: 0"
+          allowfullscreen="no"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <section class="register">
+      <h1 id="register-text">Please register your attendance ...</h1>
+    </section>
     <footer>
-      <div>Copyright &copy; 2023 Corey Hedberg</div>
-      <div>All rights reserved.</div>
+      <div>&copy; 2025 Corey Hedberg &bull; All rights reserved.</div>
     </footer>
     <!-- TODO: Remove when finished writing what to do when the countdown has completed -->
     <div id="testing"></div>

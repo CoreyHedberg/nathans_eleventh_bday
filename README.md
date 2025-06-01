@@ -1,8 +1,6 @@
 # Nathan's 9th Birthday
 
-Website built for my son's 9th birthday.
-
-Click [here](https://coreyhedberg.github.io/nathans_ninth_birthday/) to join the celebration.
+Website built for my son's 11th birthday.
 
 ## Languages Used
 
@@ -14,5 +12,5 @@ I am building this website to practice my skills and also create a landing page 
 
 ## Author
 
-**Corey Hedberg** | Software Developer<br>
+**Corey Hedberg** | _Aspiring_ Software Developer<br>
 [Website](https://coreyhedberg.dev/) &bull; [LinkedIn](https://www.linkedin.com/in/coreyhedberg/)
