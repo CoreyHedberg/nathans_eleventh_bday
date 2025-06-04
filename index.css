@@ -1,6 +1,7 @@
 :root {
   --body-font: "Mulish", cursive;
   --primary-font: "Permanent Marker", cursive;
+  --footer-font: "Noto Sans Mono", serif;
 }
 
 * {
@@ -38,7 +39,7 @@ body {
 #when-text,
 #register-text {
   font-family: "Noto Sans", sans-serif;
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 #countdown-header-image {
@@ -97,7 +98,15 @@ body {
   padding: 3rem 0;
 }
 
+#register-link {
+  text-decoration: none;
+}
+
+#register-text-actual {
+  color: #fff;
+}
+
 footer {
   margin-top: 20px;
-  font-family: var(--body-font);
+  font-family: var(--footer-font);
 }
