@@ -48,8 +48,9 @@ body {
 
 #countdown-timer {
   display: grid;
-  grid-template-columns: repeat(4, 18rem);
+  grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(2, auto);
+  column-gap: 5rem;
   justify-content: center;
 }
 
