@@ -20,7 +20,7 @@
     />
 
     <link rel="stylesheet" href="./index.min.css" />
-    <script defer src="./index.min.js"></script>
+    <script src="./index.min.js" defer></script>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -42,13 +42,17 @@
     <title>Nathan's 11th Birthday</title>
   </head>
   <body>
-    <section id="header">
-      <div>It's time to celebrate Nathan's 11th birthday</div>
-      <div>Please join us on Nathan's special day!</div>
+    <section>
+      <div class="header-text">
+        It's time to celebrate Nathan's 11th birthday
+      </div>
+      <div class="header-text">Please join us on Nathan's special day!</div>
     </section>
     <h1 id="divider-image">🎉</h1>
     <section class="countdown">
-      <h3 id="countdown-header-text">The countdown has begun ...</h3>
+      <h3 id="countdown-header-text" class="header-text-gradient">
+        The countdown has begun ...
+      </h3>
       <div id="countdown-timer">
         <div id="days" class="countdown-number"></div>
         <div id="hours" class="countdown-number"></div>
@@ -62,13 +66,15 @@
     </section>
     <h1 id="divider-image">🎉</h1>
     <section class="when">
-      <h3 id="when-text">The party is on ...</h3>
+      <h3 id="when-text" class="header-text-gradient">The party is on ...</h3>
       <h1 class="when-text-actual">December 13, 2025</h1>
       <h1 class="when-text-actual">From 2:00 PM To 4:30 PM</h1>
     </section>
     <h1 id="divider-image">🎉</h1>
     <section class="location">
-      <h3 id="location-text">The party is at ...</h3>
+      <h3 id="location-text" class="header-text-gradient">
+        The party is at ...
+      </h3>
       <div id="location-logo">
         <a href="https://www.urbanair.com/" target="_blank">
           <img
@@ -92,7 +98,9 @@
     </section>
     <h1 id="divider-image">🎉</h1>
     <section class="register">
-      <h1 id="register-text">Please RSVP for the big day ...</h1>
+      <h1 id="register-text" class="header-text-gradient">
+        Please RSVP for the big day ...
+      </h1>
       <a
         href="https://docs.google.com/forms/d/e/1FAIpQLSfCtE82SkrN3QXh2_HeJqR2LNv60owivjoAlfLDAMpMAr-Uug/viewform?usp=dialog"
         target="_blank"
